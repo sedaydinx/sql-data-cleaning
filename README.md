@@ -2,22 +2,22 @@
 
 **Project:** Layoffs Data Cleaning  
 **Database:** MySQL  
-**Focus:** duplicates, standardization, null handling  
+**Focus:** Duplicates, standardization, null handling  
 
-## 🔹 Ziel
-Die Layoffs-Daten bereinigen, um saubere, standardisierte Tabellen für Analyse oder Reporting zu erhalten.
+## Objective
+Clean the layoffs dataset to create a consistent and analysis-ready table.
 
-## 🔹 Schritte
-1. Entfernen von Duplikaten (`ROW_NUMBER` + `DELETE`)  
-2. Standardisierung der Daten (`TRIM`, Länder- und Industrie-Korrekturen)  
-3. Umgang mit NULL- oder leeren Werten  
-4. Entfernen unnötiger Spalten (`row_num`)  
+## Steps
+1. Remove duplicates (`ROW_NUMBER` + `DELETE`)  
+2. Standardize data (`TRIM`, country and industry fixes)  
+3. Handle null and empty values  
+4. Drop unnecessary columns (`row_num`)  
 
-## 🔹 SQL-Features
+## SQL Features
 - CTE (`WITH duplicate_cte AS …`)  
-- Window Functions (`ROW_NUMBER() OVER(...)`)  
-- `JOIN` für das Auffüllen fehlender Werte  
+- Window functions (`ROW_NUMBER() OVER(...)`)  
+- `JOIN` to fill missing values  
 - `ALTER TABLE`, `UPDATE`, `DELETE`  
 
-## 🔹 Dateien
-- `data_cleaning_layoffs.sql` → Haupt-SQL-Script
+## Files
+- `data_cleaning.sql` → main SQL script
