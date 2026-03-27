@@ -1,6 +1,5 @@
 # Layoffs Data Cleaning
 
-**Project:** Layoffs Data Cleaning  
 **Database:** MySQL  
 **Focus:** Duplicates, standardization, null handling  
 
