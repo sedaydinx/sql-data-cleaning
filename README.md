@@ -20,3 +20,4 @@ Clean the layoffs dataset to create a consistent and analysis-ready table.
 
 ## Files
 - `data_cleaning.sql` → main SQL script
+ 
